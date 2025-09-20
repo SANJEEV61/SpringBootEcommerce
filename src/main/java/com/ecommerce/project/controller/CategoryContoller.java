@@ -22,7 +22,7 @@ public class CategoryContoller {
    @PostMapping("api/public/categories")
    public String createCategory(@RequestBody Category category){
        categories.add(category);
-       return "Category added successfully!";
+       return "Category Added Successfully!";
    }
 
 }

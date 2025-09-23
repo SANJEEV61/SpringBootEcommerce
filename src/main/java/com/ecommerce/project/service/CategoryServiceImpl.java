@@ -30,10 +30,10 @@ public class CategoryServiceImpl implements CategoryService {
                 .filter(c -> c.getCategoryId().equals(categoryId))
                 .findFirst().orElse(null);
         if(category == null)
-            return "Category is not found!";
+            return "Category is not found!!";
 
         categories.remove(category);
-        return "Category with categoryId: " + categoryId + " Deleted Successfully! ";
+        return "Category with categoryId: " + categoryId + " Deleted Successfully!!d ";
     }
 }
 

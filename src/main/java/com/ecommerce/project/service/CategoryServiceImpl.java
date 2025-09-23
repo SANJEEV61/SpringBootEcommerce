@@ -33,7 +33,7 @@ public class CategoryServiceImpl implements CategoryService {
             return "Category is not found!!";
 
         categories.remove(category);
-        return "Category with categoryId: " + categoryId + " Deleted Successfully!!d ";
+        return "Category with categoryId: " + categoryId + " Deleted Successfully!!";
     }
 }
 

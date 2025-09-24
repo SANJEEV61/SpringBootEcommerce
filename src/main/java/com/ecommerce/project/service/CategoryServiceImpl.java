@@ -50,7 +50,7 @@ public class CategoryServiceImpl implements CategoryService {
         return existingCategory;
     }
     else {
-        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Category not found!");
+        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Category not found!!");
 
     }
 
